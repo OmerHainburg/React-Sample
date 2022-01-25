@@ -1,8 +1,10 @@
+
 import logo from './logo.svg';
 import './App.css';
 import Student from './Student';
+import SuperButton from "./SuperButton";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +21,9 @@ function App() {
           Learn React
         </a>
         <Student prop1="Omer" prop2="Farooq" />
+        <div className="block">
+        <SuperButton atext="Click Me" alertText="I've been clicked!" />
+      </div>
       </header>
     </div>
   );
