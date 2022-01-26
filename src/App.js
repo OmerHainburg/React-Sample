@@ -8,6 +8,9 @@ import Forms from './Form';
 import  QuoteMaker from './QuoteMaker';
 import Owl from './Owl';
 import Friend from './Friend';
+import TonightsPlan from './TonightsPlan';
+import { Greeting } from './Greeting';
+// import ReactDOM from 'react-dom';
 
 export default function App() {
   return (
@@ -33,14 +36,9 @@ export default function App() {
         <QuoteMaker />
         <Owl />
         <Friend />
+        <TonightsPlan />
+        <h1><Greeting name="Omer Farooq"></Greeting></h1>
       </header>
     </div>
   );
 }
-
-
-
-
-
-
-

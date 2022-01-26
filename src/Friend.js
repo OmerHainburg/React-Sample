@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 
 const friends = [
   {
@@ -21,12 +21,10 @@ export default function Friend (){
     return (
         <div>
             <h1>{friend.title}</h1>
-            <img src={friend.src} />
+            <img src={friend.src} alt={friend.title}/>
     	</div>
     );
   }
-
-
 
 // New component class starts here:
 // class Friend extends React.Component {
