@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Student from './Student';
 import SuperButton from "./SuperButton";
+import React from 'react';
+import Forms from './Form';
+import  QuoteMaker from './QuoteMaker';
+import Owl from './Owl';
+import Friend from './Friend';
 
 export default function App() {
   return (
@@ -22,12 +27,20 @@ export default function App() {
         </a>
         <Student prop1="Omer" prop2="Farooq" />
         <div className="block">
-        <SuperButton atext="Click Me" alertText="I've been clicked!" />
-      </div>
+          <SuperButton atext="Click Me" alertText="I've been clicked!" />
+        </div>
+        <Forms />        
+        <QuoteMaker />
+        <Owl />
+        <Friend />
       </header>
     </div>
   );
 }
+
+
+
+
 
 
 
