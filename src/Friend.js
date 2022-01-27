@@ -21,7 +21,7 @@ export default function Friend (){
     return (
         <div>
             <h1>{friend.title}</h1>
-            <img src={friend.src} alt={friend.title}/>
+            <img src={friend.src} alt={friend.title} className='photo'/>
     	</div>
     );
   }

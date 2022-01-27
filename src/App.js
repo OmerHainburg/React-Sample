@@ -9,7 +9,16 @@ import  QuoteMaker from './QuoteMaker';
 import Owl from './Owl';
 import Friend from './Friend';
 import TonightsPlan from './TonightsPlan';
+import IncreamentState from './IncreamentState';
 import { Greeting } from './Greeting';
+import { List } from './List';
+import { Button } from './Button';
+import { AppState } from './AppState';
+import { Toggle } from './Toggle';
+import { Clock } from './Clock';
+import { ClockInterval } from './ClockInterval';
+import Candle from './Candle';
+
 // import ReactDOM from 'react-dom';
 
 export default function App() {
@@ -38,6 +47,22 @@ export default function App() {
         <Friend />
         <TonightsPlan />
         <h1><Greeting name="Omer Farooq"></Greeting></h1>
+        <div>
+        <List type='Living Musician'>
+          <li>Sachiko M</li>
+          <li>Harvey Sid Fisher</li>
+        </List>
+        <List type='Living Cat Musician'>
+          <li>Nora the Piano Cat</li>
+        </List>
+        <Button />
+        <AppState />
+        <Toggle />
+        <IncreamentState />
+        <Clock />
+        <ClockInterval />
+        <Candle />
+      </div>
       </header>
     </div>
   );

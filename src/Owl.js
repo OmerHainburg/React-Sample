@@ -4,14 +4,16 @@ import React from 'react';
 
 const owl = {
   title: 'Excellent Owl',
-  src: 'https://content.codecademy.com/courses/React/react_photo-owl.jpg'
+  src: 'https://content.codecademy.com/courses/React/react_photo-owl.jpg',
+  width: '200px',
+  height: '200px'
 };
 
 export default function Owl (){
     return (
         <div>
             <h1>{owl.title}</h1>
-            <img src={owl.src} alt={owl.title} />
+            <img src={owl.src} alt={owl.title} className='photo'/>
        </div>
     );
   }

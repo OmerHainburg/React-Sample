@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 
-class Button extends React.Component {
+export class Button extends React.Component {
   scream() {
     alert('AAAAAAAAHHH!!!!!');
   }
@@ -11,4 +11,34 @@ class Button extends React.Component {
   }
 }
 
-ReactDOM.render(<Button />, document.getElementById('app'));
+// export class Button extends React.Component {
+//     render() {
+//       return (
+//         <button onClick={this.props.talk}>
+//           Click me!
+//         </button>
+//       );
+//     }
+//   }
+
+//   class Button extends React.Component {
+//     render() {
+//       return (
+//         <button>
+//           {this.props.text}
+//         </button>
+//       );
+//     }
+//   }
+  
+//   // defaultProps goes here:
+//   Button.defaultProps = {
+//     text: 'I am a button'
+//   }
+  
+//   ReactDOM.render(
+//     <Button />, 
+//     document.getElementById('app')
+//   );
+
+//ReactDOM.render(<Button />, document.getElementById('app'));
